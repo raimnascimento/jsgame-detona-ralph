@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../imagens/wall.png);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    padding: 3em;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 5px solid #ffd700;
+}
+
+.menu-live {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* dentro do menu time, procura-se um h2, que seja o segundo elemento */
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2) {
+    margin-top: 1rem;
+}
+
+.panel {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000000;
+    background-color: #7fffd4;
+}
+
+.enemy {
+    background-image: url(../imagens/ralph.png);
+    background-size: cover;
+}
