@@ -19,4 +19,4 @@ Desenvolvido durante o Bootcamp da DIO em parceria com a Ri Happy - Coding the F
 
 Fique de olho na sua pontuação enquanto avança e desafie seus amigos a baterem seu recorde. Clique no quadrado onde o Ralph está para testar suas habilidades!
 
-![imagem](img/detona-ralph-resultado.png)
+![imagem](src/imagens/detona-ralph-resultado.png)
